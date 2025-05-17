@@ -22,16 +22,6 @@ export default function Navbar() {
 
     return (
         <>
-            {/*<header>*/}
-            {/*    <nav className=" flex px-20 py-5 justify-between">*/}
-            {/*        <Logo />*/}
-            {/*        <ul className="flex justify-end space-x-10 text-xl">*/}
-            {/*            {navLinks}*/}
-            {/*        </ul>*/}
-            {/*    </nav>*/}
-            {/*</header>*/}
-
-
             <header>
                 <nav className="flex px-6 md:px-20 py-5 justify-between items-center bg-ctp-base">
                     <Logo />
