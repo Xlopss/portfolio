@@ -1,9 +1,19 @@
+import Type from "../components/Type.tsx";
+import ButtonMailTo from "../components/ButtonMailTo.tsx";
+
 export default function Contact() {
     return (
         <div className="text-ctp-lavender-700 text-center">
-            <h1>Contact</h1>
-            <p>Pour toute question ou information, n'hésitez pas à nous contacter à l'adresse suivante :</p>
-            <p>estelle@alleau.dev</p>
+            <div className="p-30 text-3xl">
+                <Type/>
+            </div>
+            <div className="p-10 px-40">
+                <p>Si vous avez envie de me contacter pour une alternance, un poste, un projet, une question ou simplement pour discuter,
+                    n'hésitez pas à m'écrire.</p>
+                <br/>
+                <p>Je suis toujours ouverte aux nouvelles opportunités !</p>
+            </div>
+            <ButtonMailTo label="Me contacter" mailto="mailto:estelle@alleau.dev"/>
         </div>
     )
 };
