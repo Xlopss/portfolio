@@ -14,7 +14,7 @@ export default function Navbar() {
     ];
     const navLinks = navItems.map((item) => (
         <li key={item.name}>
-            <a href={item.path} className="text-ctp-lavender-700 hover:text-ctp-lavender-900">
+            <a href={item.path} className="text-ctp-text hover:text-ctp-lavender-900 transition duration-300 ease-in-out">
                 {item.name}
             </a>
         </li>
@@ -42,7 +42,7 @@ export default function Navbar() {
                                 <li key={item.name}>
                                     <a
                                         href={item.path}
-                                        className="text-ctp-lavender-700 hover:text-ctp-lavender-900 text-xl"
+                                        className="text-ctp-text hover:text-ctp-lavender-900 text-xl transition duration-300 ease-in-out"
                                         onClick={() => setOpen(false)}
                                     >
                                         {item.name}
