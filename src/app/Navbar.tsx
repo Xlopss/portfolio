@@ -24,7 +24,9 @@ export default function Navbar() {
         <>
             <header>
                 <nav className="flex px-6 md:px-20 py-5 justify-between items-center bg-ctp-base">
-                    <Logo />
+                    <a href={ROUTES.HOME}>
+                        <Logo />
+                    </a>
                     <ul className="hidden md:flex space-x-10 text-xl">
                         {navLinks}
                     </ul>
