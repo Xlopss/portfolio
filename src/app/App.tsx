@@ -4,7 +4,7 @@ import {ROUTES} from "../Routes.tsx";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "../pages/Home.tsx";
 import Projects from "../pages/Projects.tsx";
-import Dump from "../pages/Dump.tsx";
+// import Dump from "../pages/Dump.tsx";
 import Contact from "../pages/Contact.tsx";
 import Error from "../pages/Error.tsx";
 
@@ -18,7 +18,7 @@ export default function App() {
                     <Routes>
                         <Route path={ROUTES.HOME} element={<Home/>}/>
                         <Route path={ROUTES.PROJECTS} element={<Projects/>}/>
-                        <Route path={ROUTES.DUMP} element={<Dump/>}/>
+                        {/*<Route path={ROUTES.DUMP} element={<Dump/>}/>*/}
                         <Route path={ROUTES.CONTACT} element={<Contact/>}/>
                         <Route path={ROUTES.ERROR} element={<Error/>}/>
                     </Routes>

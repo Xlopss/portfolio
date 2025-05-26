@@ -9,7 +9,7 @@ export default function Navbar() {
     const navItems = [
         {name: "ACCUEIL", path: ROUTES.HOME},
         {name: "PROJETS", path: ROUTES.PROJECTS},
-        {name: "LA DÉCHARGE", path: ROUTES.DUMP},
+        // {name: "LA DÉCHARGE", path: ROUTES.DUMP},
         {name: "CONTACT", path: ROUTES.CONTACT}
     ];
     const navLinks = navItems.map((item) => (
