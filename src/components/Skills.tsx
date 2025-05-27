@@ -24,7 +24,6 @@ export default function Skills() {
             {name: "Java", icon: java},
             {name: "JavaScript", icon: js},
             {name: "PHP", icon: php},
-            {name: "React", icon: react},
             {name: "TypeScript", icon: ts},
         ],
         frameworks: [

@@ -2,7 +2,7 @@ import Skills from "../components/Skills.tsx";
 
 export default function Home() {
 
-    const cv: string = "https://drive.google.com/file/d/1U-cgapTYCQNTvKRFrYWroXPqoXk3A3e0/view?usp=drive_link";
+    const cv: string = "https://drive.google.com/file/d/1xo5mXyEDZXgoDmSNw71LH1wHAWXKtJGz/view?usp=drive_link";
 
     return (
         <div className="text-ctp-text text-center flex flex-col items-center">
