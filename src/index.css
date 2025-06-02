@@ -2,13 +2,11 @@
 @import "tailwindcss";
 @import "@catppuccin/tailwindcss/config.css";
 
-:root {
-    .jetbrains-mono- < uniquifier > {
+h1, h2, .typewriter {
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
-}
 }
 
 h1 {
@@ -16,10 +14,6 @@ h1 {
     line-height: 1.1;
 }
 
-
-button:hover {
-    border-color: #646cff;
-}
 
 button:focus,
 button:focus-visible {

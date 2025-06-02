@@ -20,7 +20,7 @@ export default function Home() {
             </div>
             <Skills/>
             <button onClick={() => window.open(cv, "_blank")}
-                    className="bg-ctp-lavender-700 text-ctp-base font-bold py-2 px-4 rounded hover:bg-ctp-lavender-900 transition duration-300 ease-in-out m-8">
+                    className="bg-ctp-lavender-700 text-ctp-base cursor-pointer font-bold py-2 px-4 rounded hover:bg-ctp-lavender-900 transition duration-300 ease-in-out m-8">
                 Télécharger mon CV
             </button>
 
