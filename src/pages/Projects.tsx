@@ -1,9 +1,14 @@
 import Card from "../components/Card.tsx";
+import DecryptedText from "../components/DecryptedText.tsx";
+
 
 export default function Projects() {
     return (
         <div className="text-ctp-text text-center">
-            <h1 className="text-ctp-lavender-700 p-5">Projets</h1>
+            <div className="text-ctp-lavender-700 p-10 mb-5 text-5xl">
+                <DecryptedText text="Projets" speed={80} maxIterations={15} animateOn="view" revealDirection="start" sequential={true} />
+            </div>
+
             <p>Voici un aperçu des projets réalisés seule ou en équipe
                 <div className="flex flex-col md:flex-row flex-wrap items-stretch justify-center gap-6 mt-6">
                     <Card title="Portfolio"
