@@ -17,5 +17,6 @@ export default function Type() {
                     delay: 100
                 }}/>
         </div>
+
     )
 }
