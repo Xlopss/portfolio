@@ -3,6 +3,7 @@ import DecryptedText from "../components/DecryptedText.tsx";
 import CardLinks from "../components/CardLinks.tsx";
 
 
+
 export default function Projects() {
     return (
         <div className="text-ctp-text text-center">
