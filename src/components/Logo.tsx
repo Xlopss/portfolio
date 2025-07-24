@@ -1,7 +1,6 @@
 export default function Logo({fillColor = "rgb(180,190,254)"}) {
 
     // TODO: Add a prop to change the color of the logo on hover
-    // TODO: Add onClick prop to navigate to the home page
 
     return (
         <svg
