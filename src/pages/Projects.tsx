@@ -1,6 +1,8 @@
 import Card from "../components/Card.tsx";
 import DecryptedText from "../components/DecryptedText.tsx";
 import CardLinks from "../components/CardLinks.tsx";
+import github from "../assets/github.svg";
+import itchio from "../assets/itchio-textless.svg";
 
 
 
@@ -16,12 +18,12 @@ export default function Projects() {
                     <Card title="Peuchère: A Goblin's Quest"
                           description="Conception et développement d'un jeu platformer 2D dans le cadre d'une game jam. Noté 4ème sur 129 jeux"
                           stack="Godot, Aseprite & Audacity">
-                        <CardLinks svg={"src/assets/itchio-textless.svg"} alt={"Peuchère: A Goblin's Quest"} link={"https://ya-nek.itch.io/peuchere-a-goblins-quest"}/>
+                        <CardLinks svg={itchio} alt={"Peuchère: A Goblin's Quest"} link={"https://ya-nek.itch.io/peuchere-a-goblins-quest"}/>
                     </Card>
                     <Card title="Portfolio"
                           description="Conception et développement de ce portfolio"
                           stack="React, TypeScript & Vite">
-                    <CardLinks svg={"src/assets/github.svg"} alt={"GitHub"} link={"https://github.com/Xlopss/portfolio"} />
+                    <CardLinks svg={github} alt={"GitHub"} link={"https://github.com/Xlopss/portfolio"} />
                     </Card>
                     <Card title="-En cours-"
                           description="Conception et développement d'une application mobile à destination des Conservateurs-Restaurateurs d'art répondant à un besoin de centralisation et partage de protocoles scientifiques"
